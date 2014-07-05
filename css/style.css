@@ -691,27 +691,30 @@ section * {
 @media only screen and (max-height: 690px) {
 
   .container .main-title {
-    font-size: 12px;
+    font-size: 18px;
   }
 
 }
 
 @media only screen and (max-width: 480px ) {
 
-
+  .container .line-height-sm {
+    font-size: 14px;
+  }
   .container .main-title {
+    font-size: 22px;
     /*margin-left: -12px;*/
   }
 
   .container .date {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
   }
 
   .container .info {
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.0;
     margin-bottom: 10px;
   }
