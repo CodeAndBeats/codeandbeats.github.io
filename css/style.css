@@ -688,6 +688,14 @@ section * {
 }
 
 
+@media only screen and (max-height: 690px) {
+
+  .container .main-title {
+    font-size: 12px;
+  }
+
+}
+
 @media only screen and (max-width: 480px ) {
 
 
