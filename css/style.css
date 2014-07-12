@@ -197,6 +197,8 @@ blockquote:before {
   margin-top: -50px;
   font-size: 16px;
   color: #000 !important;
+  font-size: 1.25em;
+  line-height: 1.5em;
 }
 
 .event-copy b {
@@ -997,7 +999,7 @@ section * {
 .header-10-sub {
   position: relative;
   z-index: 50;
-  height: 800px;
+  height: 100vh;
   color: white;
   text-align: center;
 }
