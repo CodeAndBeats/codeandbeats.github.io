@@ -1,5 +1,61 @@
 /*** uncss> filename: css/style.css ***/
 
+#mc_embed_signup {
+  margin-top: 50px;
+}
+
+#mc_embed_signup input.email {
+  color: #34495e;
+  font-family: 'Hero-Light';
+  font-size: 14px;
+  line-height: 1.231;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga', 'kern';
+  border-radius: 3px;
+  width: 40%;
+  max-width: 600px;
+  min-width: 200px;
+  text-align: center;
+  text-indent: 0;
+}
+
+#mc_embed_signup input.button {
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  #mc_embed_signup input.email {
+    display: inline-block;
+    margin: 0;
+  }
+  #mc_embed_signup input.button {
+    display: inline-block;
+    width: 10%;
+    max-width: 200px;
+    min-width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #mc_embed_signup input.email {
+    width: 100%;
+    min-width: 200px;
+    margin-right: 0;
+  }
+  #mc_embed_signup input.button {
+    width: 100%;
+    min-width: 200px;
+    margin: 0;
+  }
+}
+
+#mc_embed_signup form {
+  text-align: inherit;
+}
+
 /*** uncss> filename: vendor/flat-ui/bootstrap/css/bootstrap.css ***/
 
 /*!
@@ -145,7 +201,6 @@ h6 {
   font-weight: bold;
   line-height: 20px;
   color: inherit;
-  text-rendering: optimizelegibility;
 }
 
 h3 {
