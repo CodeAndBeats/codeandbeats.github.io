@@ -1,5 +1,33 @@
 /*** uncss> filename: css/style.css ***/
 
+.social img {
+  width: 32px;
+  height: 32px;
+}
+
+#motion {
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto; 
+  height: auto; 
+  z-index: -1000; 
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+#motion video {
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #mc_embed_signup {
   margin-top: 50px;
 }
@@ -478,8 +506,8 @@ body > section {
 
 @media (max-width: 767px) {
   body > section {
-    padding-right: 20px;
-    padding-left: 20px;
+    /*padding-right: 20px;
+    padding-left: 20px;*/
   }
 }
 
@@ -561,6 +589,7 @@ section * {
   margin-top: 30px;
   font-size: 22px;
   font-weight: bold;
+  text-align: center;
 }
 
 .container .info {
@@ -576,6 +605,8 @@ section * {
 
 .container .info .special {
   font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .container .title {
@@ -664,7 +695,7 @@ section * {
 }
 
 .header-10-sub .background {
-  background-image: url("../img/cnb-bg.png");
+  /*background-image: url("../img/cnb-bg.png");*/
   background-size: cover;
   opacity: 0.85;
   filter: alpha(opacity=85);
