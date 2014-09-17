@@ -1,5 +1,95 @@
 /*** uncss> filename: css/style.css ***/
 
+.submit {
+  -webkit-appearance: none;
+-webkit-backface-visibility: hidden;
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+-webkit-box-shadow: none;
+-webkit-font-smoothing: auto;
+-webkit-writing-mode: horizontal-tb;
+align-items: flex-start;
+backface-visibility: hidden;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(204, 1, 72);
+background-image: none;
+background-origin: padding-box;
+background-repeat: repeat;
+background-size: auto;
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: none;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-size: 14.6666669845581px;
+font-weight: 500;
+height: 40.3333320617676px;
+letter-spacing: normal;
+line-height: 22px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 7px;
+min-width: 150px;
+padding-bottom: 10px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 9px;
+text-align: center;
+text-decoration: none;
+text-indent: 0px;
+text-shadow: none;
+text-transform: none;
+vertical-align: middle;
+width: 150px;
+word-spacing: 0px;
+writing-mode: lr-tb;
+z-index: auto;
+
+}
+
+input, textarea, select {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: 10px;
+  border-color: #ebedee;
+  color: #7f8c8d !important;
+  border: 1px solid #ebedee;
+  border-radius: 6px;
+  line-height: 20px;
+  padding: 5px;
+}
+
+.h6 {
+  color: #666 !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .social img {
   width: 32px;
   height: 32px;
